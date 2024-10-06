@@ -22,9 +22,9 @@ export type CreateUserParams = {
       title: string
       description: string
       location: string
-      imageUrl: string
-      startDateTime: Date
-      endDateTime: Date
+      imageUrl: string | ''
+      startDateTime: Date | ''
+      endDateTime: Date | ''
       categoryId: string
       price: string
       isFree: boolean
